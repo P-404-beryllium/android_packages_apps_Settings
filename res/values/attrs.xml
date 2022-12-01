@@ -187,4 +187,9 @@
     <attr name="ic_menu_moreoverflow" format="reference" />
     <attr name="side_margin" format="reference|dimension" />
     <attr name="wifi_signal_color" format="reference" />
+
+    <!-- Base attributes available to OverlaySwitchPreference. -->
+    <declare-styleable name="OverlaySwitchPreference">
+        <attr name="dkey" format="string" />
+    </declare-styleable>
 </resources>
